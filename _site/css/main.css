@@ -25,14 +25,17 @@ body {
   font-weight: 300 !important;
   color: #282828 !important; }
 
-.page-stuff a {
-  color: #5b5b5b !important;
-  text-decoration: none; }
-  .page-stuff a:hover {
-    color: #DD5538 !important;
-    text-decoration: none !important;
-    border-bottom: 1px dotted #DD5538;
-    padding-bottom: 0.5em; }
+.page-stuff {
+  border-top: 1px dotted #DD5538;
+  border-bottom: 1px dotted #DD5538; }
+  .page-stuff a {
+    color: #5b5b5b !important;
+    text-decoration: none; }
+    .page-stuff a:hover {
+      color: #DD5538 !important;
+      text-decoration: none !important;
+      border-bottom: 1px dotted #DD5538;
+      padding-bottom: 0.5em; }
 
 #page-content {
   padding-bottom: 4em; }
@@ -46,8 +49,13 @@ body {
   font-weight: 300 !important;
   background: #FFFFFF !important;
   color: #DD5538 !important; }
-  .jumbotron h3 {
-    color: #282828 !important; }
+  .jumbotron h1 {
+    font-size: 48px !important;
+    margin-bottom: 30px !important;
+    font-weight: 100 !important; }
+  .jumbotron p {
+    font-size: 16px !important;
+    margin-bottom: 0px !important; }
 
 a {
   color: #5b5b5b !important;
@@ -76,7 +84,11 @@ ul li::before {
 
 .post-box {
   padding-top: 2em;
-  padding-bottom: 2em; }
+  padding-bottom: 2em;
+  border-bottom: 1px dotted #DD5538; }
+
+.post-box:first-child {
+  border-top: 1px dotted #DD5538; }
 
 .post-title {
   font-size: 20px !important;
