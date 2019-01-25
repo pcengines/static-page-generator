@@ -48,10 +48,11 @@ body {
   font-family: 'Roboto', sans-serif !important;
   font-weight: 300 !important;
   background: #FFFFFF !important;
-  color: #DD5538 !important; }
+  color: #DD5538 !important;
+  text-align: center;
+  padding-bottom: 14px !important; }
   .jumbotron h1 {
-    font-size: 48px !important;
-    margin-bottom: 30px !important;
+    font-size: 38px !important;
     font-weight: 100 !important; }
   .jumbotron p {
     font-size: 16px !important;
@@ -294,3 +295,14 @@ code {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+.blog {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 300 !important;
+  color: #282828; }
+
+img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: auto; }
