@@ -16,16 +16,9 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ol class="nav navbar-nav">
-        {% for page in site.pages %}
-        {% if page.title %}
-        <li><a href="{{page.permalink | prepend: site.baseurl }}">{{page.title}}</a></li>
-
-        {% endif %}
-
-        {% endfor %}
-
-
-      </l>
+        <li><a href="/blog {{ prepend: site.baseurl }}">Blog</a></li>
+        <li><a href="/about-blog {{ prepend: site.baseurl }}">About this blog</a></li>
+      </ol>
 
     <!--  <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Know More!</a></li>
